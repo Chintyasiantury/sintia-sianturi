@@ -1,0 +1,638 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNtVjXOCx2wMVf7g8ETlgoh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Chintyasiantury/sintia-sianturi/blob/main/P6%20Sintia%20Sianturi\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i_j8MZFwC9Ul",
+        "outputId": "db89b3f7-1e70-46a7-f9d7-1df2998a131e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sembilan Lebih Besar Dari Angka Tujuh\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Kondisi if adalah kondisi yang akan dieksekusi oleh program jika bernilai benar atau TRUE\n",
+        "\n",
+        "nilai = 9\n",
+        "\n",
+        "#jika kondisi benar/TRUE maka program akan mengeksekusi perintah dibawahnya\n",
+        "if(nilai > 7):\n",
+        "    print(\"Sembilan Lebih Besar Dari Angka Tujuh\") # Kondisi Benar, Dieksekusi\n",
+        "\n",
+        "#jika kondisi salah/FALSE maka program tidak akan mengeksekusi perintah dibawahnya\n",
+        "if(nilai > 10):\n",
+        "    print(\"Sembilan Lebih Besar Dari Angka Sepuluh\") # Kondisi Salah, Maka tidak tereksekusi"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "grade = 100\n",
+        "\n",
+        "if grade == 100:\n",
+        "    print(\"perfect\")\n",
+        "\n",
+        "if grade == 90:\n",
+        "    print(\"ok\")\n",
+        "    print(\"keep working hard!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pA8gNVuKDdy3",
+        "outputId": "c0cb28dc-3d5c-4928-b43a-efc0ea0b4cc1"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "perfect\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "grade = float(input(\"Masukkan Nilai Anda: \"))\n",
+        "\n",
+        "if grade == 100:\n",
+        "    print(\"perfect\")\n",
+        "\n",
+        "if grade == 90:\n",
+        "    print(\"ok\")\n",
+        "    print(\"keep working hard!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0THWtRRpDdzp",
+        "outputId": "8af1d601-fca2-402d-9ee8-9b0ed6135a52"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan Nilai Anda: 90\n",
+            "ok\n",
+            "keep working hard!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "grade = int(input(\"Masukkan Nilai Anda: \"))\n",
+        "\n",
+        "if grade == 100:\n",
+        "    print(\"perfect\")\n",
+        "\n",
+        "if grade == 90:\n",
+        "    print(\"ok\")\n",
+        "    print(\"keep working hard!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "O45OKOM8Dd0f",
+        "outputId": "c49c1d26-b0a3-455a-c4a9-f69105496f90"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Masukkan Nilai Anda: 80\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Lapar = input(\"Apakah sintia lapar? \")\n",
+        "if(\"lapar == ya\"):\n",
+        "  print(\"sintia makan\")\n",
+        "else:\n",
+        "  print(\"sintia tidak makan\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UcS0VHrXQuI-",
+        "outputId": "8c8f16c9-2c22-43b4-ca7e-dd39d743d82c"
+      },
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Apakah sintia lapar? ya\n",
+            "sintia makan\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Kondisi if else adalah jika kondisi bernilai TRUE maka akan dieksekusi pada if,\n",
+        "# tetapi jika bernilai FALSE maka akan dieksekusi kode pada else\n",
+        "\n",
+        "nilai = 3\n",
+        "# Jika pernyataan pada if bernilai TRUE maka if akan dieksekusi,\n",
+        "# tetapi jika FALSE kode pada else yang akan dieksekusi.\n",
+        "if(nilai > 7):\n",
+        "    print(\"Selamat Anda Lulus\")\n",
+        "else:\n",
+        "    print(\"Maaf Anda Tidak Lulus\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A-lTZEw_Eskf",
+        "outputId": "46c3b579-ce9d-4f24-998d-b1bcfb753c63"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Maaf Anda Tidak Lulus\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Kondisi if else adalah jika kondisi bernilai TRUE maka akan dieksekusi pada if,\n",
+        "# tetapi jika bernilai FALSE maka akan dieksekusi kode pada else\n",
+        "\n",
+        "nilai = 8\n",
+        "# Jika pernyataan pada if bernilai TRUE maka if akan dieksekusi,\n",
+        "# tetapi jika FALSE kode pada else yang akan dieksekusi.\n",
+        "if(nilai > 7):\n",
+        "    print(\"Selamat Anda Lulus\")\n",
+        "else:\n",
+        "    print(\"Maaf Anda Tidak Lulus\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RJtVuxXdEslf",
+        "outputId": "aabd0a86-836a-412e-f1ab-0deb00ab74f7"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Selamat Anda Lulus\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "str_input = input('Enter your grade: ')\n",
+        "grade = int(str_input)\n",
+        "\n",
+        "if grade == 100:\n",
+        "    print(\"perfect\")\n",
+        "else:\n",
+        "    print(\"keep it up\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-aw9m5c1E8CW",
+        "outputId": "2353fe74-a798-48ba-9874-ba6b32da4854"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your grade: 90\n",
+            "keep it up\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Contoh penggunaan kondisi elif\n",
+        "\n",
+        "hari_ini = \"Minggu\"\n",
+        "\n",
+        "if(hari_ini == \"Senin\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"Selasa\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"Rabu\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"Kamis\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"Jumat\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"Sabtu\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"Minggu\"):\n",
+        "    print(\"Saya akan libur\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Jn09fcVrFbIf",
+        "outputId": "bacae5ae-a862-405e-ab8c-640869ee869d"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Saya akan libur\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "zq3ZTwXaH2YF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Contoh penggunaan kondisi elif\n",
+        "\n",
+        "hari_ini = input(\"Masukkan hari(gunakan huruf kecil): \")\n",
+        "\n",
+        "if(hari_ini == \"senin\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"selasa\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"rabu\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"kamis\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"jumat\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"sabtu\"):\n",
+        "    print(\"Saya akan kuliah\")\n",
+        "elif(hari_ini == \"minggu\"):\n",
+        "    print(\"Saya akan libur\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-xDafHAiGBtm",
+        "outputId": "4cbc276b-a718-4b79-c5a7-762dff3dfb53"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan hari(gunakan huruf kecil): rabu\n",
+            "Saya akan kuliah\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "str_input = input('Enter your grade: ')\n",
+        "grade = int(str_input)\n",
+        "\n",
+        "if grade == 100:\n",
+        "    print(\"perfect\")\n",
+        "elif grade >= 85:\n",
+        "    print(\"awesome\")\n",
+        "elif grade >= 65:\n",
+        "    print(\"passed the exam\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ygrVf5TNGTnm",
+        "outputId": "1bac7e57-928d-4c39-ac60-ec4257a98661"
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your grade: 100\n",
+            "perfect\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "str_input = input('Enter your grade: ')\n",
+        "grade = int(str_input)\n",
+        "\n",
+        "if grade == 100:\n",
+        "    print(\"perfect\")\n",
+        "elif grade >= 85:\n",
+        "    print(\"awesome\")\n",
+        "elif grade >= 65:\n",
+        "    print(\"passed the exam\")\n",
+        "else:\n",
+        "    print(\"below the passing grade\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YCReyWu6Gft_",
+        "outputId": "7308d68b-9ea5-4ebc-f580-e0740d597e41"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your grade: 30\n",
+            "below the passing grade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "str_input = input('Enter your grade: ')\n",
+        "grade = int(str_input)\n",
+        "\n",
+        "if grade == 100:\n",
+        "    print(\"perfect\")\n",
+        "\n",
+        "elif grade >= 85:\n",
+        "    print(\"awesome\")\n",
+        "\n",
+        "elif grade >= 65:\n",
+        "    print(\"passed the exam\")\n",
+        "\n",
+        "    if grade <= 70:\n",
+        "        print(\"but you need to improve it!\")\n",
+        "    else:\n",
+        "        print(\"with ok grade\")\n",
+        "\n",
+        "else:\n",
+        "    print(\"below the passing grade\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yQEQ0v7BMbzH",
+        "outputId": "0d7061a3-e053-4b2a-ab9e-e492fe3ae706"
+      },
+      "execution_count": 52,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your grade: 73\n",
+            "passed the exam\n",
+            "with ok grade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "grade = int(input('Enter your current grade: '))\n",
+        "prev_grade = int(input('Enter your previous grade: '))\n",
+        "\n",
+        "if grade >= 90 and prev_grade >= 65:\n",
+        "    print(\"awesome\")\n",
+        "if grade >= 90 and prev_grade < 65:\n",
+        "    print(\"awesome. you definitely working hard, right?\")\n",
+        "elif grade >= 65:\n",
+        "    print(\"passed the exam\")\n",
+        "else:\n",
+        "    print(\"below the passing grade\")\n",
+        "\n",
+        "if (grade >= 65 and not prev_grade >= 65) or (not grade >= 65 and prev_grade >= 65):\n",
+        "    print(\"at least you passed one exam. good job!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PNnZGIv2M7C_",
+        "outputId": "cf1d629f-0d5c-49f1-a80f-2a882244fdf5"
+      },
+      "execution_count": 55,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your current grade: 90\n",
+            "Enter your previous grade: 80\n",
+            "awesome\n",
+            "passed the exam\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "umur = 20\n",
+        "status ='dewasa' if umur >= 18 else 'Anak-anak'\n",
+        "print(status)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pE9ZCusyUt4W",
+        "outputId": "53d5e7fe-9062-4e7f-e13f-ee84f963bb75"
+      },
+      "execution_count": 66,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dewasa\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Soal Nomor 1\n",
+        "bilangan = 60\n",
+        "if (bil % 3 == 0):\n",
+        "  print('habis di bagi 3')\n",
+        "\n",
+        "else:\n",
+        "  print('tidak habis di bagi 3')\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QyqHRHDxTcPm",
+        "outputId": "86398b47-beb7-42fb-e249-d93aa4981e08"
+      },
+      "execution_count": 61,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "habis di bagi 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#SOAL NOMOR 2\n",
+        "nama = input(\"masukkan nama:\")\n",
+        "jenis_kelamin = input (\"masukkan jenis kelamin:\")\n",
+        "if(\"jenis_kelamin=pria/wanita\"):\n",
+        "  print(\"halo sis\", nama)\n",
+        "else:\n",
+        "    print(\"halo bro\", nama)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pSM73AtNPKs2",
+        "outputId": "4297f372-b6f9-48cf-b501-7e687d6bfc33"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "masukkan nama:sintia\n",
+            "masukkan jenis kelamin:wanita\n",
+            "halo sis sintia\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#SOAL NOMOR 3\n",
+        "str_input = input('enter your grade:')\n",
+        "grade = int(str_input)\n",
+        "\n",
+        "if grade == 100:\n",
+        "  print(\"good\")\n",
+        "elif grade >= 75:\n",
+        "  print(\"semangat tingkat lagi\")\n",
+        "  if grade <=75:\n",
+        "    print(\"diulang kembali\")\n",
+        "  else:\n",
+        "    print(\"lebih giat lagi\")\n",
+        "else:\n",
+        "  print(\"Tidak lulus\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HA0WTVgKPcU-",
+        "outputId": "a2ecb54b-b052-478a-88e7-8a78f20ac3c3"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter your grade:95\n",
+            "semangat tingkat lagi\n",
+            "lebih giat lagi\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
